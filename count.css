@@ -1,0 +1,23 @@
+*{
+   margin:0;
+   padding:0;
+   
+
+}
+.container{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    font-size: 5rem;
+    
+    
+}
+.count{
+   background-color: blue;
+   border:2px solid blue;
+   border-radius: 10px;
+   padding:2rem;
+   box-shadow: 0 4px 8px 0 rgb(29, 29, 244), 0 6px 20px 0 rgb(29, 29, 244);
+   font-family:'anton';
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <script src="https://kit.fontawesome.com/1da4230670.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="count.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Reistration Form</title>
+</head>
+
+<body>
+   <div class="nav-bar">
+      <div class="logo"><img src="e-cell logo new.png" alt="" width="60px"></div>
+      <div>E Summit StartUp Expo NIT-B'23</div>
+      <div class="btn"><a href="#about-ecell">About</a></div>
+      <div class="btn"><a href="#form">Register Now</a></div>
+      
+      
+   </div>
+   <div class="banner-img"></div>
+   <div class="about-startup">
+      <h1>About Start up expo</h1>
+      <div class="text">StartupExpo is a startups exhibition event, welcoming all the top-notch Startups, Investors,
+         Speakers, Organizations and attendees from all over India. The event willprovide an amazing platform for
+         startups to showcase their innovative products with the rest of the people thereby connecting them to an
+         amazing community to help propel their growth. The interested startups should fill this form:</div>
+         
+      
+         <div class="btn" id="btn"><a href="#form">Register Now</a></div>
+   </div>
+   
+   <div class="about-ecell" id="about-ecell">
+      <h1>About E-cell NIT-B</h1>
+      <div class="text">Entrepreneurship Cell, NIT-bhopal is an enthusiastic bunch of students who are working to induce
+         an entrepreneurial mindset into the community and to air an innovative streak in them. In a world where
+         entrepreneurship is growing as one of the biggest buzzwords, we are here to water the ideas in buds and help
+         them bloom into impactful endeavors. E-Cell effectively networks student enterprises from campus to incubators,
+         angel investors and venture capitalists to transform the newly proposed ideas into successful startups. We are
+         working towards building an inspired Gen-Next who has the inbuilt urge to innovate, take risks, shoulder social
+         responsibility and indulge in the creative execution of their vibrant ideas.
+         Movements like MAKE IN INDIA and START-UP INDIA encourages technical as well as non-technical start-ups to come up in India so that more employment is created and India becomes self-sufficient. Entrepreneurship friendly environment is being created in India by easing various norms for doing business both in rural as well as urban areas.Movements like MAKE IN INDIA and START-UP INDIA encourages technical as well as non-technical start-ups to come up in India so that more employment is created and India becomes self-sufficient. Entrepreneurship friendly environment is being created in India by easing various norms for doing business both in rural as well as urban areas.</div>
+   </div>
+   <div class="why" id="why">
+
+      <div class="card">Startups will be provided stalls along with the necessary provisions (special provisions can be
+         provided) to showcase their cutting edge technologies. The stalls will be located at prime locations with the
+         visibility of more that 15k+ people.</div>
+      <div class="card">Companies will be provided with an opportunity to launch their product in front of a diverse
+         community attending E-Summit consisting of top investors, VC’s, Corporate Leaders and esteemed faculty (Details
+         can be found below)</div>
+      <div class="card">Along with the flow of Startup Expo pitching events and other buzz events will be organized
+         where startups would have an opportunity to pitch in front of a panel composed of Venture capitalists and other
+         dignitaries, to secure a chance of funding and mentoring opportunity.</div>
+      <div class="card">E-Summit’22, the annual entrepreneurial flagship event of NIT-Bhopal, with over 20,000
+         footfalls, has evolved into a permanent fixture in the calendars of all the premier colleges of India. E-Summit
+         has been covered and advertised by Television channels and Newspapers.</div>
+      <div class="card">Along with the branding and advertisement via the media coverage of E-Summit’22, Startup Expo
+         will also be featured in a special coverage, with personalized interviews of each of the participating
+         startups.</div>
+      <div class="card">Startups will also have special provisions to hire from the student community at IIT Kanpur,
+         including UGs, PGs, PhDs specializing in various domains including technical, non-technical, core-engineering,
+         humanities and social sciences.</div>
+   </div>
+   <div class="form" id="form">
+      <form onsubmit="myfunc(event)">
+         <div class="container">
+      
+            <div class="count" id="count"></div>
+         </div>
+         <div class="details">
+            <div>Registration</div>
+            <span>#makeThingshappen</span>
+            <div class="input-fields">
+               <label>Full Name:</label>
+
+
+               <input type="text" name="" id="name" placeholder="Enter your Name">
+            </div>
+            <div class="input-fields">
+               <label>Name of your Startup:</label>
+
+               <input type="text" name="" id="startup" placeholder="Name of your Startup">
+            </div>
+            <div class="input-fields">
+               <label>Contact Number:</label>
+               <input type="number" name="" id="num" placeholder="Contact Number:">
+            </div>
+            <div class="input-fields">
+               <label>Contact Email:</label>
+               <input type="email" name="" id="email" placeholder="Enter valid email address  ">
+            </div>
+            <div class="input-fields">
+               <label>Founder/Co-Founder Linkedin ID:</label>
+               
+               <input type="text" name="" id="found-link" placeholder="Linkedin id">
+            </div>
+            <div class="input-fields">
+               <label>Startup Linkedin ID:</label>
+               
+               <input type="text" name="" id="start-link" placeholder="Linkedin id">
+            </div>
+            <div class="input-fields">
+               <label>Are you MANIT student/Alumni:</label>
+
+               Yes<input type="radio" id="stu.alu" placeholder="" name="myMANIT">
+               No<input type="radio"  id="" placeholder="" name="myMANIT">
+            </div>
+            <div class="input-fields">
+               <label>Brief idea about idea/product/Service:</label>
+               <br>
+               <textarea name="" id="brief" cols="30" rows="2" placeholder="write something here related to your startup"></textarea>
+            </div>
+            <div class="input-fields">
+               
+               
+               <input type="submit" name="" id="" placeholder="" class="submit" >
+            </div>
+            <div class="input-fields">
+               
+               
+               <input type="reset" name="" id="" placeholder="" class="submit">
+             </div>
+         </div>
+      </form>
+   </div>
+   <footer>
+      <div class="icons">
+         <div class="instagram logo"><i class="fa-brands fa-instagram  fa-2x "  ></i></div>
+         <div class="web logo"><i class="fa-brands fa-facebook  fa-2x " ></i></div>
+         <div class="linkedin logo"><i class="fa-brands fa-linkedin  fa-2x " ></i></div>
+      </div>
+      <div class="foot-text"><span>#makethings</span><span class="span">happens</span></div>
+   </footer>
+</body>
+<script src="script.js"></script>
+<script src="countdown.js"></script>
+</html>
